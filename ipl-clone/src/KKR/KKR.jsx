@@ -6,9 +6,9 @@ export const KKR = () => {
             <div>
                 <div className={styles.titleCont}>
                     <div className={styles.imgContainer}>
-                    <img className={styles.logo} src='https://www.jagranimages.com/images/newimg/21082020/21_08_2020-ipl_logo_20650553.jpg' alt='ipl logo' />
+                    <img className={styles.logo} src='https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/640px-Kolkata_Knight_Riders_Logo.svg.png' alt='ipl logo' />
                     </div>
-                    <h1 className={styles.team}>Indian Premier <br/>League 2024</h1>
+                    <h1 className={styles.team}>Kolkata Knight  <br/>Riders 2024</h1>
                 </div>
                 <p className={styles.about}>The 2024 season was the 17th season for the Indian Premier League franchise Kolkata Knight Riders. They were one of the ten teams competed in the 2024 Indian Premier League. They finished at the 7th place in previous season's League stage.
                  Ahead of the 2024 season, Shreyas Iyer returned as the captain after missing out the 2023 season due to back injury.After their 9th win on 11 May 2024, Kolkata became the first team to be qualified for the Playoffs. After their abandoned match on 13 May 2024, 

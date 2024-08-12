@@ -1,0 +1,35 @@
+.homeContainer{
+    display: flex;
+    padding:20px;
+}
+.logo{
+    width:70px;
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.team{
+    font-family: 'anton';
+    padding-left:20px;
+    color: #19398a;
+}
+.titleCont{
+    display: flex;
+    align-items: center;
+    border:2px solid #19398a;
+    padding:10px 5px;
+    border-radius: 10px;
+    width:70%;
+}
+.imgContainer{
+    height:100px;
+    width: 100px;
+    border-radius: 60px;
+    border:2px solid #19398a;
+    
+}
+.teamImage{
+    box-shadow: 10px 10px 5px gray;
+    width:45%;
+    height:45%;
+}

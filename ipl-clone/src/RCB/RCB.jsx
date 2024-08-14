@@ -7,9 +7,11 @@ export const RCB = () => {
             <div>
                 <div className={styles.titleCont}>
                     <div className={styles.imgContainer}>
-                    <img className={styles.logo} 
+                    <Image className={styles.logo} 
                            src='https://upload.wikimedia.org/wikipedia/en/0/0a/Royal_Challengers_Bengaluru_Logo.png' 
                            alt='ipl logo' 
+                           height={100}
+                           width={100}
                     />
                     </div>
                     <h1 className={styles.team}>Royal Challengers <br/>Bangalore 2024</h1>
@@ -24,7 +26,12 @@ export const RCB = () => {
                    The franchise has also competed in the Champions League Twenty20, finishing as runners-up in the 2011 season.
                 </p>
             </div>
-            <img className={styles.teamImage} src='https://assets.bcci.tv/watermarkoutput/bcci/photos/1450/7af4c86e-2fca-4e33-acf3-da239e3a10c2.jpg' alt="ipl image" />
+            <Image className={styles.teamImage}
+                   src='https://assets.bcci.tv/watermarkoutput/bcci/photos/1450/7af4c86e-2fca-4e33-acf3-da239e3a10c2.jpg'
+                   alt="ipl image"
+                   height={350}
+                   width={550}
+                    />
         </div>
     )
 }

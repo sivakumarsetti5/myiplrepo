@@ -1,12 +1,17 @@
 import React from 'react'
 import styles from './Home.module.css'
+import Image from 'next/image'
 export const Home = () => {
     return (
         <div className={styles.homeContainer}>
             <div>
                 <div className={styles.titleCont}>
                     <div className={styles.imgContainer}>
-                    <img className={styles.logo} src='https://www.jagranimages.com/images/newimg/21082020/21_08_2020-ipl_logo_20650553.jpg' alt='ipl logo' />
+                    <Image className={styles.logo} 
+                           src='https://www.jagranimages.com/images/newimg/21082020/21_08_2020-ipl_logo_20650553.jpg'
+                           alt='ipl logo' 
+                           width={100}
+                           height={100}/>
                     </div>
                     <h1 className={styles.team}>Indian Premier <br/>League 2024</h1>
                 </div>
@@ -19,8 +24,12 @@ export const Home = () => {
                     resulting in fewer international cricket tours occurring during the IPL seasons.
                 </p>
             </div>
-            <img className={styles.teamImage} src='https://www.hindustantimes.com/ht-img/img/2024/03/21/550x309/IPL2024_captains_1711022779905_1711022790591.jpg' alt="ipl image" />
-        </div>
+            <Image className={styles.teamImage} 
+                   src='https://www.hindustantimes.com/ht-img/img/2024/03/21/550x309/IPL2024_captains_1711022779905_1711022790591.jpg'
+                   alt="ipl image" 
+                   width={550}
+                   height={350}/>
+         </div>
     )
 }
 

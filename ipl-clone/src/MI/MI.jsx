@@ -1,12 +1,17 @@
 import React from 'react'
 import styles from './MI.module.css'
+import Image from 'next/image'
 export const MI = () => {
     return (
         <div className={styles.homeContainer}>
             <div>
                 <div className={styles.titleCont}>
                     <div className={styles.imgContainer}>
-                    <img className={styles.logo} src='https://icon2.cleanpng.com/20180712/kao/aaw72bheg.webp' alt='ipl logo' />
+                    <Image className={styles.logo} 
+                    src='https://icon2.cleanpng.com/20180712/kao/aaw72bheg.webp' 
+                    alt='ipl logo' 
+                    height={100}
+                    width={100}/>
                     </div>
                     <h1 className={styles.team}>Mumbai Indians 2024</h1>
                 </div>
@@ -18,7 +23,11 @@ export const MI = () => {
                     the highest among all the IPL franchises for the fourth consecutive year.
                 </p>
             </div>
-            <img className={styles.teamImage} src='https://crickettimes.com/wp-content/uploads/2023/12/Mumbai-Indians-6.webp' alt="ipl image" />
+            <Image className={styles.teamImage} 
+            src='https://crickettimes.com/wp-content/uploads/2023/12/Mumbai-Indians-6.webp' 
+            alt="ipl image" 
+            height={350}
+            width={550}/>
         </div>
     )
 }

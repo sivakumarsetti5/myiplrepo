@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './KKR.module.css'
+import Image from 'next/image'
 export const KKR = () => {
     return (
         <div className={styles.homeContainer}>
             <div>
                 <div className={styles.titleCont}>
                     <div className={styles.imgContainer}>
-                    <img className={styles.logo} src='https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/640px-Kolkata_Knight_Riders_Logo.svg.png' alt='ipl logo' />
+                    <Image height={100} width={100} className={styles.logo} src='https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/640px-Kolkata_Knight_Riders_Logo.svg.png' alt='ipl logo' />
                     </div>
                     <h1 className={styles.team}>Kolkata Knight  <br/>Riders 2024</h1>
                 </div>
@@ -17,7 +18,7 @@ export const KKR = () => {
                 
                 </p>
             </div>
-            <img className={styles.teamImage} src='https://assets.bcci.tv/watermarkoutput/bcci/photos/1456/1da01778-c4f2-4621-b5a8-5c8b81fdedab.jpg' alt="ipl image" />
+            <Image height={350} width={550} className={styles.teamImage} src='https://assets.bcci.tv/watermarkoutput/bcci/photos/1456/1da01778-c4f2-4621-b5a8-5c8b81fdedab.jpg' alt="ipl image" />
         </div>
     )
 }

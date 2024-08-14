@@ -1,12 +1,16 @@
 import React from 'react'
 import styles from './CSK.module.css'
+import Image from 'next/image'
 export const CSK = () => {
     return (
         <div className={styles.homeContainer}>
             <div>
                 <div className={styles.titleCont}>
                     <div className={styles.imgContainer}>
-                    <img className={styles.logo} src='https://documents.iplt20.com/ipl/CSK/logos/Logooutline/CSKoutline.png' alt='ipl logo' />
+                    <Image className={styles.logo} 
+                    src='https://documents.iplt20.com/ipl/CSK/logos/Logooutline/CSKoutline.png' 
+                    alt='ipl logo'
+                    width={100} height={100} />
                     </div>
                     <h1 className={styles.team}>Chenai Super <br/>Kings 2024</h1>
                 </div>
@@ -17,7 +21,11 @@ export const CSK = () => {
                     In the IPL, they have appeared in a record 10 finals and qualified for the playoff stages 12 times out of the 15 seasons they have played, more than any other team.
                 </p>
             </div>
-            <img className={styles.teamImage} src='https://static.cricketaddictor.com/wp-content/uploads/2024/02/Image-2024-02-08T151316.620.jpg?q=80' alt="ipl image" />
+            <Image className={styles.teamImage} 
+            src='https://static.cricketaddictor.com/wp-content/uploads/2024/02/Image-2024-02-08T151316.620.jpg?q=80' 
+            alt="ipl image" 
+            width={550} height={350}
+            />
         </div>
     )
 }

@@ -11,7 +11,7 @@ export const Home = () => {
                     <h1 className={styles.team}>Indian Premier <br/>League 2024</h1>
                 </div>
                 <p className={styles.about}>The Indian Premier League (IPL), also known as the TATA IPL for sponsorship reasons, 
-                    is a men's Twenty20 (T20) cricket league held annually in India. 
+                    is a mens Twenty20 (T20) cricket league held annually in India. 
                     Founded by the BCCI (the Board of Control for Cricket in India) in 2007, 
                     the league features ten state or city-based franchise teams. 
                     The IPL usually takes place during the summer, between March and May each year. 
